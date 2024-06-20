@@ -42,7 +42,7 @@ nav{
 }
 .face > img{
     height: 40px;
-    margin-top: 20px;
+    margin-top: 28px;
 }
 h1{
     font-size: 83.6pt;
@@ -77,14 +77,23 @@ h2{
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     margin-top: 40px;
+    transition: 200ms ease;
+    cursor: pointer;
 }
 .main > .video-container> video{
     position: absolute;
-    height: auto;
-    width:98.9vw;
+    height: 100%;
+    width: 100%;
+    /* width:98.9vw; */
     /* width: auto; */
     left: 0px;
     top: 0px;
     z-index: -1;
     opacity: 0.74;
+    object-fit: cover;
+}
+.face > a > button:hover{
+    background-color: #66FCF1;
+    /* border: solid 2px #030829; */
+    color: #030829;
 }
