@@ -153,7 +153,7 @@ h2{
 .services{
     display: flex;
     flex-direction: column;
-    height: 130vh;
+    height: auto;
 }
 .bg-services-box{
     /* background-color: rgb(221, 0, 255); */
@@ -190,14 +190,19 @@ h2{
 .services-heading{
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
-    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-top: 50px;
 }
 
 .service-cards{
     /* background-color: azure; */
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 120px;
+    background-image: url(../media/service-card-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .card > img{
     height: 160px;
@@ -219,4 +224,122 @@ h3{
 
     text-align: center;
     font-weight: 200;
+}
+
+.reviews{
+    background-color: #66FCF1;
+    height: 130vh;
+    height: auto;
+}
+.bg-reviews-box{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/mission-heading-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+.bg-reviews-box > img{
+    height: 75px;
+    align-self: flex-end;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1;
+}
+h4{
+    font-size: 82pt;
+    font-family: 'Etna'; 
+    color: #030829;
+    position: relative;
+    bottom: 50px;
+}
+.review-card{
+    background-color: #030829;
+    height: 292px;
+    width: 600px;
+    margin: 20px 20px;
+    display: flex;
+    border-radius: 8px;
+
+}
+.bg-reviews-box{
+    width: 800px;
+}
+.heading-reviews{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.review-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+.set{
+    display: flex;
+    justify-content: center;
+}
+.left-review-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 25px 0px 15px;
+}
+.review-img{
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 15px;
+    /* margin-bottom: px; */
+}
+.five-star{
+    height: 30px;
+    margin-bottom: 50px;
+}
+.right-review-card > p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-right: 20px;
+
+}
+h5{
+    color: #E3FF00;
+    font-size: 39.5pt;
+    font-family: 'Etna', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.mission{
+    height: 130vh;
+    background-color: #030829;
+}
+.mission-heading{
+    color: #66FCF1;
+    font-size: 82pt;
+    font-family: 'Etna', sans-serif;
+}
+.mission-header-top > img{
+    height: 100px;
+}
+
+
+.mission-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mission-header-top{
+    display: flex;
+}
+.mission-wrapper{
+    width: 400px;
 }
