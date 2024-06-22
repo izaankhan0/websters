@@ -328,8 +328,9 @@ h5{
 }
 
 .mission{
-    height: 130vh;
+    height: auto;
     background-color: #030829;
+    padding: 80px 0px;
 }
 .mission-heading{
     color: #66FCF1;
