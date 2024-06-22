@@ -62,7 +62,7 @@ h1{
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
 }
 h2{
     font-family: 'Gill', sans-serif;
@@ -363,13 +363,14 @@ h5{
 .mission-content{
     display: flex;   
     justify-content: center;
+    align-items: center;
 }
 .mission-cont{
     width: 40%;
 }
 
 .sub-cont-left-1{
-    font-size: 35pt;
+    font-size: 33pt;
     color: #66FCF1;
     text-align: center;
     font-family: 'Tan', sans-serif;
@@ -377,7 +378,7 @@ h5{
 
 }
 .sub-cont-left-2{
-    font-size: 32pt;
+    font-size: 29pt;
     color: #66FCF1;
     font-family: "Red Hat Display", sans-serif;
     text-align: center;
@@ -392,7 +393,131 @@ h5{
     
 }
 .mission-cont-right > img{
-    height: 540px;
+    height: 500px;
     position: relative;
     left: 30px;
+}
+
+
+.contact{
+    background-color: #66FCF1;
+    height: 100vh;
+    padding: 40px 0px;
+}
+.contact-heading-top > img{
+    height: 70px;
+    margin-left: 30px;
+}
+.contact-heading-top{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.contact-wrapper{
+    width: 580px;
+    background-image: url(../media/contact-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h6{
+    font-size:82pt;
+    font-family: 'Etna', sans-serif;
+    text-align: end;
+    color: #030829;
+}
+h6 > span{
+    position: relative;
+    top: 40px;
+    right: 8px
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+.contact-cont-1{
+    background-color: #030829;
+    width: 40%;
+}
+.contact-cont-2{
+    background-color: #640000;
+    width: 25%;
+    margin-left: 50px;
+}
+.contact-cont{
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.h7{
+    font-size: 36pt;
+    color: #66FCF1;
+    font-family: 'Etna', sans-serif;
+    margin: 16px 0px;
+}
+
+.contact-items > p{
+    font-size: 20pt;
+    text-align: center;
+    color: #66FCF1;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 0px 15px;
+}
+.contact-item-2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+}
+.contact-btn{
+    font-size: 13pt;
+    padding: 13px 22px;
+    background-color: transparent;
+    border: solid 4px #66FCF1;
+    border-radius: 3px;
+    color: #66FCF1;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.packet > img{
+    width: 50px;
+}
+
+.contact-item-1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* height: 200px; */
+    /* justify-content: space-between; */
+    width: 80%;
+
+
+}
+.packet{
+    margin-bottom: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.packet > p{
+    color: #66FCF1;
+    font-size: 20pt;
+    margin-left: 50px;
+    font-family: "Poppins", sans-serif;
+
+
 }
