@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --big: 82pt;
+    /* --white: #ffffff; */
+  }
 body{
     display: flex;
     justify-content: center;
@@ -46,7 +50,7 @@ nav{
     margin-top: 28px;
 }
 h1{
-    font-size: 83.6pt;
+    font-size: var(--big);
     font-family: 'Etna', sans-serif;
     position: relative;
     right: 90px;
@@ -83,7 +87,7 @@ h2{
 }
 .main > .video-container> video{
     position: absolute;
-    height: 102%;
+    min-height: 1400px;
     width: 100%;
     /* width:98.9vw; */
     /* width: auto; */
@@ -149,6 +153,8 @@ h2{
     font-family: "Red Hat Display", sans-serif;
     font-size: 18pt;
     padding-top: 70px;
+    font-weight: 600;
+
 }
 .services{
     display: flex;
@@ -160,7 +166,7 @@ h2{
     height: 40vh;
     font-family: 'Etna', sans-serif;
     color: #66FCF1;
-    font-size: 82pt;
+    font-size: var(--big);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +175,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 50vw;
+    width: auto;
 }
 .top-heading-services > img{
     height: 83px;
@@ -251,7 +257,7 @@ h3{
     z-index: 1;
 }
 h4{
-    font-size: 82pt;
+    font-size: var(--big);
     font-family: 'Etna'; 
     color: #030829;
     position: relative;
@@ -323,7 +329,7 @@ h5{
 }
 .mission-heading{
     color: #66FCF1;
-    font-size: 82pt;
+    font-size: var(--big);
     font-family: 'Etna', sans-serif;
 }
 .mission-header-top > img{
@@ -426,7 +432,7 @@ h5{
     background-position: center center;
 }
 h6{
-    font-size:82pt;
+    font-size:var(--big);
     font-family: 'Etna', sans-serif;
     text-align: end;
     color: #030829;
@@ -484,7 +490,7 @@ h6 > span{
     font-size: 13pt;
     padding: 13px 22px;
     background-color: transparent;
-    border: solid 4px #66FCF1;
+    border: solid 2px #66FCF1;
     border-radius: 3px;
     color: white;
     font-family: "Red Hat Display", sans-serif;
