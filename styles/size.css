@@ -187,6 +187,9 @@
   h3 {
     font-size: 34pt;
   }
+  .smoll{
+    font-size: 29pt;
+  }
   .card > img {
     height: 130px;
     width: 130px;
@@ -272,6 +275,9 @@
   }
   h3 {
     font-size: 31pt;
+  }
+  .smoll{
+    font-size: 26pt ;
   }
   .card > img {
     height: 105px;

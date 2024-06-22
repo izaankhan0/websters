@@ -539,3 +539,9 @@ h6 > span{
     color: #030829;
     cursor: pointer;
 }
+
+.smoll{
+    /* transform: scale(1.2); */
+    /* color: #E3FF00; */
+    font-size: 38pt ;
+}
