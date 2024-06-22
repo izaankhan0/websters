@@ -486,9 +486,10 @@ h6 > span{
     background-color: transparent;
     border: solid 4px #66FCF1;
     border-radius: 3px;
-    color: #66FCF1;
+    color: white;
     font-family: "Red Hat Display", sans-serif;
-
+    transition: 200ms ease;
+    
 }
 
 .packet > img{
@@ -496,14 +497,13 @@ h6 > span{
 }
 
 .contact-item-1{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* height: 200px; */
     /* justify-content: space-between; */
     width: 80%;
-
 
 }
 .packet{
@@ -520,4 +520,11 @@ h6 > span{
     font-family: "Poppins", sans-serif;
 
 
+}
+
+.contact-btn:hover{
+    background-color: #66FCF1;
+    /* border: solid 2px #030829; */
+    color: #030829;
+    cursor: pointer;
 }
