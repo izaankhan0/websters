@@ -21,6 +21,7 @@ body{
 .main{
     color: #66FCF1;
     /* overflow: hidden; */
+    min-height: 715px;
 
 }
 .li-pt > ul > a > li{
@@ -109,6 +110,7 @@ h2{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 500px;
 }
 .about-left > img{
     height: 40px;
@@ -162,6 +164,7 @@ h2{
     flex-direction: column;
     height: auto;
     /* padding: 30px 0px; */
+    padding-top: 50px;
 }
 .bg-services-box{
     /* background-color: rgb(221, 0, 255); */
@@ -415,7 +418,8 @@ h5{
 
 .contact{
     background-color: #66FCF1;
-    height: 100vh;
+
+    height: auto;
     padding: 40px 0px;
     padding-bottom: 100px;
 }
