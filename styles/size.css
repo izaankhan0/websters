@@ -55,6 +55,28 @@
 
     }
 }
+@media (max-width:720px) {
+    h1{
+        font-size: 60pt;
+        /* position: relative; */
+        /* left: 01
+        px; */
+        right: 56px;
+        
+    }
+    .w{
+        font-size: 200pt;
+        left: 60px;
+
+
+    }
+    h2{
+        font-size: 28pt;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+}
 @media (max-width:620px) {
     :root {
         --big:60pt;
@@ -103,7 +125,29 @@
         width: 130px;
     }
 }
+@media (max-width:530px) {
+    .w{
+        font-size: 220px;
+        left: 58px;
+        bottom: 90px;
+    }
+    h1{
+        font-size: 54px;
+        margin-bottom: 20px;
 
+    }
+    .main{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .fix-1{
+        position: relative;
+        top: 16px;
+    }
+}
 @media (max-width:425px) {
     .about-heading{
         font-size: 55pt;
@@ -141,6 +185,33 @@
         height: 170px;
     }
 }
+@media (max-width:390px) {
+    .w{
+        font-size: 170px;
+        left: 58px;
+        bottom: 90px;
+    }
+    h1{
+        font-size: 54px;
+        margin-bottom: 20px;
+
+    }
+    .main{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .fix-1{
+        position: relative;
+        top: 22px;
+        left: 16px;
+    }
+    h2{
+        font-size: 22pt;
+    }
+}
 @media (max-width:335px) {
     .about-heading{
         font-size: 40pt;
@@ -166,6 +237,34 @@
     .top-heading-services{
         width: 270px;
     }
+    .w{
+        font-size: 140px;
+        left: 58px;
+        bottom: 90px;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+
+    }
+    .main{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .fix-1{
+        position: relative;
+        top: 22px;
+        left: 23px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .face > a > button{
+        margin-top: 50px;
+    }
 }
 
 
@@ -175,3 +274,18 @@
 
 
 /* HEIGHT  */
+
+
+
+
+
+
+
+
+
+/* NAV BAR */
+@media (max-width:780px) {
+    .first-nav{
+        display: none;
+    }
+}
