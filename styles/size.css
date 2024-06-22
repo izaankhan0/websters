@@ -5,8 +5,17 @@
   .about-heading {
     font-size: 80pt;
   }
+  .contact-cont-2{
+    width: 40%;
+  }
+  .contact-cont-1{
+    width: 50%;
+  }
 }
 @media (max-width: 1100px) {
+  .contact-item-1{
+    width: auto;
+  }
   .about-right > p {
     font-size: 16pt;
   }
@@ -55,6 +64,9 @@
   .services-heading {
     margin-bottom: 80px;
   }
+  .packet > p{
+    margin-left: 15px;
+  }
 }
 @media (max-width: 950px) {
   .about-heading {
@@ -63,8 +75,27 @@
   .about-right > p {
     font-size: 14pt;
   }
+  .contact-cont-2{
+    margin-left: 15px;
+  }
 }
 @media (max-width: 815px) {
+  .packet > p{
+    font-size: 18px;
+  }
+  .packet > img{
+    /* height: 20px; */
+    width: 40px;
+  }
+  .contact-item-1{
+    margin-top: 70px;
+  }
+  .h7{
+    font-size: 28pt;
+  }
+  .contact-items > p{
+    font-size: 16pt;
+  }
   .about {
     flex-direction: column;
     padding: 30px 0px;
@@ -119,6 +150,39 @@
   }
 }
 @media (max-width: 620px) {
+  .contact-item-1{
+    transform: scale(1.25);
+  }
+  .h7{
+    font-size: 32pt;
+  }
+  h6{
+    font-size: 60pt;
+  }
+  .contact-content{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .contact-cont{
+    width: 90%;
+  }
+  .contact-cont-2{
+    /* width: 90%; */
+    margin-left: 0px;
+  }
+  .contact-cont-1{
+    margin-bottom: 20px;
+  }
+  .contact{
+    height: auto;
+  }
+  .contact-wrapper{
+    width: 70%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
   :root {
     --big: 60pt;
   }
@@ -243,9 +307,12 @@
     bottom: 10px;
 }
 }
-@media (max-width: 500px) {
-  .review-img {
-    /* display: none; */
+@media (max-width: 460px) {
+  .contact-wrapper{
+    width: 90%;
+  }
+  h6{
+    font-size: 50pt;
   }
 }
 @media (max-width: 425px) {
@@ -294,6 +361,15 @@
 }
 }
 @media (max-width: 390px) {
+  .contact-item-1{
+    transform: scale(1);
+  }
+  h6{
+    font-size: 40pt;
+  }
+  .contact-heading-top > img{
+    height: 60px;
+  }
   .w {
     font-size: 170px;
     left: 58px;
@@ -320,6 +396,12 @@
   }
 }
 @media (max-width: 335px) {
+  .contact-item-1{
+    transform: scale(0.9);
+  }
+  h6{
+    font-size: 36pt;
+  }
   .about-heading {
     font-size: 40pt;
   }

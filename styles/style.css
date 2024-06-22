@@ -225,11 +225,14 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
-
+.h3-line-2{
+    color: #640000;
+    font-size: 39pt;
+}
 h3{
     font-size: 44pt;
     font-family: 'Etna'; 
-
+    color: #030829;
     text-align: center;
     font-weight: 200;
 }
@@ -414,6 +417,7 @@ h5{
     background-color: #66FCF1;
     height: 100vh;
     padding: 40px 0px;
+    padding-bottom: 100px;
 }
 .contact-heading-top > img{
     height: 70px;
@@ -544,4 +548,8 @@ h6 > span{
     /* transform: scale(1.2); */
     /* color: #E3FF00; */
     font-size: 38pt ;
+}
+
+.h7{
+    text-align: center;
 }
