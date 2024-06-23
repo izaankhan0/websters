@@ -228,6 +228,25 @@ h2{
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    background-image: url(../media/web\ dev.gif);
+}
+.card-1{
+    background-image: url(../media/web\ dev.gif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.card-2{
+    background-image: url(../media/web\ des.gif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.card-3{
+    background-image: url(../media/graphic\ des.gif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
 }
 .h3-line-2{
     color: #640000;
@@ -557,4 +576,29 @@ h6 > span{
 
 .h7{
     text-align: center;
+}
+
+.service-cards > a{
+    /* list-style: none; */
+    text-decoration: none;
+}
+.contact-items > a{
+    text-decoration: none;
+}
+
+ul > a > img{
+    width: 30px;
+}
+ul > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+ul > a > img{
+    margin-bottom: 7px;
+    transition: 200ms ease;
+}
+ul > a:hover > img {
+    transform: scale(1.4);
 }
