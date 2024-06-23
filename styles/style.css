@@ -31,6 +31,8 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 20px;
+    z-index: 10;
+    
 }
 .li-pt > ul{
     display: flex;
@@ -48,6 +50,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 30px 0px;
+    z-index: 10;
 }
 .face > img{
     height: 40px;
