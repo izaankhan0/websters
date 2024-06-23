@@ -133,6 +133,10 @@
         px; */
     right: 56px;
   }
+  .face{
+    bottom: -30px !important;
+
+  }
   h4 {
     font-size: 70pt;
   }
@@ -273,6 +277,10 @@
     font-size: 220px;
     left: 58px;
     bottom: 90px;
+  }
+  .face{
+    bottom: 30px !important;
+
   }
   h1 {
     font-size: 54px;
@@ -475,5 +483,8 @@
 @media (max-width: 780px) {
   .first-nav {
     display: none;
+  }
+  .face{
+    bottom: 30px;
   }
 }
