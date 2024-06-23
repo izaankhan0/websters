@@ -227,6 +227,7 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 .h3-line-2{
     color: #640000;
