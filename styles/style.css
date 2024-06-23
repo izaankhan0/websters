@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --big: 82pt;
     /* --white: #ffffff; */
@@ -602,3 +605,4 @@ ul > a > img{
 ul > a:hover > img {
     transform: scale(1.4);
 }
+
