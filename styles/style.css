@@ -592,21 +592,115 @@ h6 > span{
     text-decoration: none;
 }
 
-ul > a > img{
+.li-pt > ul > a > img{
     width: 30px;
 }
-ul > a{
+.li-pt > ul > a{
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
 }
-ul > a > img{
+.li-pt > ul > a > img{
     margin-bottom: 7px;
     transition: 200ms ease;
     z-index: 10;
 }
-ul > a:hover > img {
+.li-pt > ul > a:hover > img {
     transform: scale(1.4);
 }
 
+.mobile-nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #66FCF1;
+    z-index: 100;
+    height: 100%;
+    width: 70%;
+    /* right: 0px; */
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .mobile-nav > ul > a > img{
+    width: 40px;
+  }
+  .mobile-nav > ul > a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    margin: 25px 0px;
+  }
+  .mobile-nav > ul > a > li{
+    list-style: none;
+    color: #030829;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26pt;
+    margin-left: 20px;
+
+  }
+  .h9{
+    color: #030829;
+    margin: 20px 0px;
+    font-size: 30pt;
+    font-family: 'Etna', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+
+
+
+  
+  .burger{
+      display: flex;
+      flex-direction: column;
+    z-index: 100;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+    /* background-color: #030829;*/
+    /* padding: 6px 8px;  */
+    padding: 10px 0px; 
+}
+.line{
+    height: 2px ;
+    width: 40px;
+    margin: 3px 0px;
+    z-index: 100;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+  .mobile-nav, .burger{
+    display: none;
+}
+.line-aqua {
+    border: solid #66FCF1 1px;
+    background-color: #66FCF1;
+}
+
+.line-blue {
+    border: solid #030829 1px;
+    background-color: #030829;
+}
+
+.line-green {
+    border: solid #66FCF1 1px;
+    background-color: #66FCF1;
+}
+
+.line-red {
+    border: solid #030829 1px;
+    background-color: #030829;
+}
+
+.line-yellow {
+    border: solid #66FCF1 1px;
+    background-color: #66FCF1;
+}
+
+.line-gray {
+    border: solid #030829 1px;
+    background-color: #030829;
+}
