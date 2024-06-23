@@ -319,6 +319,15 @@
   }
 }
 @media (max-width: 425px) {
+  .card-1{
+    background-repeat: repeat;
+}
+.card-2{
+    background-repeat: repeat;
+}
+.card-3{
+    background-size: cover;
+}
   .about-heading {
     font-size: 55pt;
   }
