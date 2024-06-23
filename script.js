@@ -54,3 +54,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.burger');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const body = document.body;
+
+    burger.addEventListener('click', (event) => {
+        mobileNav.classList.toggle('show');
+        body.classList.toggle('no-scroll'); // Toggle no-scroll on body
+        event.stopPropagation(); // Prevent the click from bubbling up to the document
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!mobileNav.contains(event.target) && !burger.contains(event.target)) {
+            mobileNav.classList.remove('show');
+            body.classList.remove('no-scroll'); // Remove no-scroll from body
+        }
+    });
+});
