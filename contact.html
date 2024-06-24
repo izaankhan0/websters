@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .iframe{
+            background-color: transparent;
+            padding: 20px 0px;
+        }
+        .video-container> video{
+            position: absolute;
+            min-height: 1250px;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            /* opacity: ; */
+            object-fit: cover;
+}
+@media (max-width:570px) {
+    .iframe{
+        padding: 2px 0px;
+        height: 1215px;
+    }
+}
+@media (max-width:360px) {
+    .iframe{
+        padding: 2px 0px;
+        height: 1270px;
+    }
+    .video-container> video{
+        height: 1400px;
+
+    }
+}
+        
+@media (max-width:340px) {
+    .iframe{
+        padding: 2px 0px;
+        height: 1310px;
+    }
+    .video-container> video{
+        height: 1400px;
+
+    }
+}
+@media (max-width:320px) {
+    .iframe{
+        padding: 2px 0px;
+        height: 1330px;
+    }
+    .video-container> video{
+        height: 1400px;
+
+    }
+}
+@media (max-width:314px) {
+    .iframe{
+        padding: 2px 0px;
+        height: 1340px;
+    }
+    .video-container> video{
+        height: 1400px;
+
+    }
+}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="./media/Untitled design.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- <h1>
+            Contact Us Form
+        </h1> -->
+        <iframe class="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdrnSBJbllkz_Ae_oA2gI_9j0ZFhI8P-Wl_jXN2Z-XVesY5Eg/viewform?embedded=true" width="100%" height="1180px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+
+    </div>
+    <script>
+        parent.document.getElementsByTagName('iframe')[0].scrolling="no"; 
+    </script>
+</body>
+</html>
