@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .iframe{
+            background-color: transparent;
+            padding: 20px 0px;
+        }
+        .video-container> video{
+            position: absolute;
+            min-height: 1450px;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            /* opacity: ; */
+            object-fit: cover;
+        }
+         @media (max-width:570px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1420px;
+            }
+            .video-container> video{
+                height: 1520px;
+            }
+        }
+         @media (max-width:490px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1450px;
+            }
+            .video-container> video{
+                height: 1550px;
+            }
+        }
+        @media (max-width:430px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1480px;
+            }
+            .video-container> video{
+                height: 1550px;
+
+            }
+        }
+                
+        @media (max-width:371px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1520px;
+            }
+            .video-container> video{
+                height: 1750px;
+
+            }
+        }
+        @media (max-width:338px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1560px;
+            }
+            .video-container> video{
+                height: 1600px;
+
+            }
+        } 
+        @media (max-width:313px) {
+            .iframe{
+                padding: 2px 0px;
+                height: 1630px;
+            }
+            .video-container> video{
+                height: 1650px;
+
+            }
+        } 
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="./media/Untitled design.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- <h1>
+            Contact Us Form
+        </h1> -->
+        <iframe class="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSeRtOSZ538H0VPQ9KP2A_Ozkyd8DSL-ep0iVOIRvMSPZzt_kQ/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <script>
+        parent.document.getElementsByTagName('iframe')[0].scrolling="no"; 
+    </script>
+</body>
+</html>
